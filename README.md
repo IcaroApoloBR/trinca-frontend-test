@@ -33,25 +33,13 @@ Execute os seguintes comandos para configurar o Frontend.
     "react-dom": "18.2.0",
     "react-hook-form": "^7.46.1",
     "react-toastify": "^9.1.3",
-    "zod": "^3.22.2"
-  },
-  "devDependencies": {
-    "@iconify/react": "^4.1.1",
-    "@types/node": "20.6.2",
-    "@types/react": "18.2.22",
-    "autoprefixer": "^10.4.15",
-    "eslint": "7.32.0",
-    "eslint-config-next": "13.4.19",
-    "postcss": "^8.4.30",
-    "tailwindcss": "^3.3.3",
-    "typescript": "5.2.2"
-  }
+    "zod": "^3.22.2" },
 
 ### Imagens do Projeto
-![login](https://github.com/IcaroApoloBR/trinca-frontend-test/src/assets/github/login.jpeg)
-![dashboard](https://github.com/IcaroApoloBR/trinca-frontend-test/src/assets/github/dashboard.jpeg)
-![add](https://github.com/IcaroApoloBR/trinca-frontend-test/src/assets/github/add.jpeg)
-![edit](https://github.com/IcaroApoloBR/trinca-frontend-test/src/assets/github/edit.jpeg)
+![login](https://github.com/IcaroApoloBR/trinca-frontend-test/github/login.jpeg)
+![dashboard](https://github.com/IcaroApoloBR/trinca-frontend-test/github/dashboard.jpeg)
+![add](https://github.com/IcaroApoloBR/trinca-frontend-test/github/add.jpeg)
+![edit](https://github.com/IcaroApoloBR/trinca-frontend-test/github/edit.jpeg)
 
 ### Detalhes dos Requisitos para avaliação
 - Frontend em ReactJS, NextJS e Typescript.
