@@ -36,10 +36,10 @@ Execute os seguintes comandos para configurar o Frontend.
     "zod": "^3.22.2" },
 
 ### Imagens do Projeto
-![login](https://github.com/IcaroApoloBR/trinca-frontend-test/github/login.jpeg)
-![dashboard](https://github.com/IcaroApoloBR/trinca-frontend-test/github/dashboard.jpeg)
-![add](https://github.com/IcaroApoloBR/trinca-frontend-test/github/add.jpeg)
-![edit](https://github.com/IcaroApoloBR/trinca-frontend-test/github/edit.jpeg)
+![login](.github/login.jpeg)
+![dashboard](.github/dashboard.jpeg)
+![add](.github/add.jpeg)
+![edit](.github/edit.jpeg)
 
 ### Detalhes dos Requisitos para avaliação
 - Frontend em ReactJS, NextJS e Typescript.
