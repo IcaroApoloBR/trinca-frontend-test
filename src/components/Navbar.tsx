@@ -15,7 +15,7 @@ export default function Navbar() {
     };
 
     return (
-        <motion.nav initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1.0 }} className="w-full flex items-center justify-center fixed top-0 z-50">
+        <motion.nav initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1.0 }} className="w-full flex items-center justify-center fixed top-0 z-10">
             <div className="w-full flex items-center justify-between mx-4">
                 <Link href="/">
                     <Image width={60} height={40} src="/logo.png" alt="Image Logo" />
@@ -33,7 +33,7 @@ export default function Navbar() {
                         onClick={() => setToggle(!toggle)}
                     />
 
-                    <div className={`${!toggle ? 'hidden' : 'flex'} p-6  bg-whiteSecondary dark:bg-darkSecondary border border-colorSecondary absolute top-14 right-0 mx-4 my-2 min-w-[140px] flex justify-center z-50 rounded-xl`}>
+                    <div className={`${!toggle ? 'hidden' : 'flex'} p-6  bg-whiteSecondary dark:bg-darkSecondary border border-colorSecondary absolute top-14 right-0 mx-4 my-2 min-w-[140px] flex justify-center z-10 rounded-xl`}>
                         <ul className="text-gray-900 dark:text-white flex flex-col items-center">
                             <li className="font-bold">Olá, {session?.user?.name}</li>
                             <button className="text-sm underline hover:scale-95 font-medium" onClick={handleLogout}>Clique aqui para deslogar</button>

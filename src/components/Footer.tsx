@@ -15,7 +15,7 @@ export default function Footer() {
                     <div className="flex gap-4">
                         {socials.map((social) => (
                             <>
-                                <a href={social.href} target="_blank" className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                                <a key={social.name} href={social.href} target="_blank" className="w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
                                     <Image
                                         key={social.name}
                                         alt={social.name}

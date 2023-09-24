@@ -1,34 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Desafio Técnico Trinca - Front end Developer React - Sênior
 
-## Getting Started
+### Instruções.
 
-First, run the development server:
+Clone o repositório do projeto:
+-  git clone https://github.com/IcaroApoloBR/trinca-frontend-test.git
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Execute os seguintes comandos para configurar o Frontend.
+-  Frontend:
+    Entre na pasta do frontend:
+      -  cd trinca-frontend-test
+    Instale as dependências:
+      -  npm install
+    Inicie o servidor de desenvolvimento do frontend:
+      - npm run dev
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Versão do NODE   
+    v16.15.1
+### Versão do NPM   
+    v8.11.0
+    
+### Depêndencias do Frontend
+    "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@hookform/resolvers": "^3.3.1",
+    "axios": "^1.5.0",
+    "framer-motion": "^10.16.4",
+    "moment": "^2.29.4",
+    "next": "13.4.19",
+    "next-auth": "^4.23.1",
+    "nextjs-progressbar": "^0.0.16",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.46.1",
+    "react-toastify": "^9.1.3",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@iconify/react": "^4.1.1",
+    "@types/node": "20.6.2",
+    "@types/react": "18.2.22",
+    "autoprefixer": "^10.4.15",
+    "eslint": "7.32.0",
+    "eslint-config-next": "13.4.19",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^3.3.3",
+    "typescript": "5.2.2"
+  }
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Imagens do Projeto
+![login](https://github.com/IcaroApoloBR/trinca-frontend-test/src/assets/github/login.jpeg)
+![dashboard](https://github.com/IcaroApoloBR/trinca-frontend-test/src/assets/github/dashboard.jpeg)
+![add](https://github.com/IcaroApoloBR/trinca-frontend-test/src/assets/github/add.jpeg)
+![edit](https://github.com/IcaroApoloBR/trinca-frontend-test/src/assets/github/edit.jpeg)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Detalhes dos Requisitos para avaliação
+- Frontend em ReactJS, NextJS e Typescript.
+- Padrões de projeto e arquitetura são de livre escolha.
+- Forma de envio: enviar link do repositório no GitHub, Gitlab ou Bitbucket..
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Incluir um novo churrasco com data, descrição e observações adicionais;
+- Adicionar e remover participantes (colocando o seu valor de contribuição); 
+- Colocar um valor sugerido por usuário de contribuição (valor com e sem bebida inclusa);
+- Visualizar os detalhes do churrasco, total de participantes e valor arrecadado.
+- Para ajudá-lo, elaboramos um protótipo que você pode utilizar (ou não) para projetar sua solução: https://tinyurl.com/y6arsz4s
 
-## Learn More
+### Autor
 
-To learn more about Next.js, take a look at the following resources:
+<p align="center">
+  <img width="200px" alt="Ícaro Apolo" title="Ícaro Apolo" src="https://github.com/IcaroApoloBR.png" />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  <h3 align="center">Ícaro Apolo</h3>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  <p align="center">
+    Entre em contato para mais informações! 😅
+  </p>
+</p>
 
-## Deploy on Vercel
+<div align="center">
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-1f6feb?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/icaroapolo/)](https://www.linkedin.com/in/icaroapolo/)
+[![Gmail Badge](https://img.shields.io/badge/-apoloraci@gmail.com-1f6feb?style=flat-square&logo=Gmail&logoColor=white&link=mailto:apoloraci@gmail.com)](mailto:apoloraci@gmail.com)
+[![GitHub Badge](https://img.shields.io/badge/-GitHub-1f6feb?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/IcaroApoloBR)](https://github.com/IcaroApoloBR)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+</div>
