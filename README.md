@@ -36,10 +36,10 @@ Execute os seguintes comandos para configurar o Frontend.
     "zod": "^3.22.2" },
 
 ### Imagens do Projeto
-![login](.github/login.jpeg)
-![dashboard](.github/dashboard.jpeg)
-![add](.github/add.jpeg)
-![edit](.github/edit.jpeg)
+![login](github/login.jpeg)
+![dashboard](github/dashboard.jpeg)
+![add](github/add.jpeg)
+![edit](github/edit.jpeg)
 
 ### Detalhes dos Requisitos para avaliação
 - Frontend em ReactJS, NextJS e Typescript.
