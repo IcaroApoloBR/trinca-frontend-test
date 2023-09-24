@@ -1,6 +1,5 @@
 import NextAuth from 'next-auth'
 import CredentialsProvider from "next-auth/providers/credentials";
-
 import axios from 'axios'
 
 export default NextAuth({
@@ -12,7 +11,9 @@ export default NextAuth({
             },
             async authorize(credentials) {
                 try {
-                    const response = await axios.post('http://localhost:3000/api/auth/login', credentials)
+                    const apiUrl = process.env.NEXT_PUBLIC_API_URL
+
+                    const response = await axios.post(apiUrl!, credentials)
                     const user = response.data.user
 
                     if (user) {
